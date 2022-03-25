@@ -1,0 +1,28 @@
+.container1{
+    background-color: rgb(54, 50, 50);
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+hr{
+    width:50% ;
+    
+    margin-left: 350px;
+     
+     height: 10px ;
+}
+h1,p{
+    color: white;
+}
+.left1{
+    float:right;
+    margin-right: 200px;
+    margin-top: 80px;
+}
+.image{
+    margin-left: 35px;
+}
+h1{
+    color: orangered;
+}

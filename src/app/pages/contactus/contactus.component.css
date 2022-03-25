@@ -1,0 +1,13 @@
+.container{
+    background-color:  rgb(54, 50, 50);
+    height: 450px;
+}
+h1{
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+}
+.col-lg-6 mt-1 mb-1{
+    margin-left: 20px;
+}

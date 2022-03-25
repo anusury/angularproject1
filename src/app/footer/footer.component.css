@@ -1,0 +1,34 @@
+footer ul li{
+   font-size: large;
+   font-weight: bold;
+    display: inline-block;
+}
+footer{
+    background-color: black;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    height: 100px;
+    padding: auto;
+    font-style: normal;
+
+}
+.heading{
+    color: white;
+    margin-left:20px;
+    margin-top: 15px;
+}
+.condition{
+    color: white;
+    margin-left:100px;
+}
+.policy{
+    margin-left: 190px;
+}
+.social{
+    margin-left: 280px;
+}
+
+#face{
+    margin-left: 1000px;
+}

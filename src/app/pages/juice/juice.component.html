@@ -1,0 +1,20 @@
+<div class="container1">
+    <div class="heading">
+        <h1>WELCOME FOOD COURT</h1>
+        <hr>
+       <h1>WELCOME TO JUICE CATEGORIES</h1>
+    </div>
+    <div *ngFor=" let js of jusData">
+        <img class="image" src="{{js.foodImg}}">
+        <div class="left1">
+         <h1 class="name">{{js.foodName}}</h1>
+       
+         <p class="hname">{{js.hotelName}}</p>
+         <p class="price">{{js.foodPrice |currency:'INR'}}</p>
+         <a [routerLink]="['/juice',js.id]"><button>BUY NOW&nbsp;<i class="bi bi-bag-fill"></i></button></a>
+        </div>
+        <br><br><br><br><br><br>
+       
+     </div>
+     <a [routerLink]="['/starting']" class="btn btn-sm btn-dark mb-3 ">Back</a>
+</div>

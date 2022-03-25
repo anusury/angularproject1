@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="classs" *ngIf="favData">
+        <h1 class="text">!!!!!!!!!!WOWWWW YOUR FAVORITE FOOD!!!!!!!!!</h1>
+        <img src="{{favData[0].foodImg}}" width="100%"/>
+        <h1 class="mt-3">{{favData[0].foodName}}</h1>
+        <p class="fooddetails">{{favData[0].foodDetails}}</p>
+        <p class="foodprice">{{favData[0].foodPrice | currency :'INR'}}</p>
+        <a routerLink="../../menu" class="btn btn-sm btn-dark mb-3 ">Back</a>
+    </div>
+    
+</div>

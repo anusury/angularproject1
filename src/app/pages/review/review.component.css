@@ -1,0 +1,17 @@
+.container{
+    background-color: rgb(54, 50, 50);
+}
+h1{
+    color:orangered;
+    font-weight: bolder;
+    font: size 25px;
+    font-style: oblique;
+    text-align: center;
+}
+
+p{
+    color:white;
+    font-size:15px ;
+    
+}
+

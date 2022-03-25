@@ -1,0 +1,47 @@
+<div class="container1 ">
+    <div class="column">
+        <br>
+        <h1 class="heading1">ALL CATEGORIES OF FOODS</h1>
+        <div   *ngFor="let fd of foodData">
+            <div class="foodBox" >
+               
+                <br>
+                <br>
+               
+                <img class="img" src="{{fd.foodImg }}">
+                 <br>
+                 <br>
+                <a class="buybtn" [routerLink]="['/favoritepage',fd.id]" > <i class="bi bi-heart-fill"></i></a>
+                 <br> 
+                 <br>
+                <h1 class="name">{{fd.foodName}}</h1>
+                <p class="fdetails">{{fd.foodDetails}}</p>
+                <p class="hname">{{fd.hotelName}}</p>
+                <p class="price">{{fd.foodPrice |currency:'INR'}}</p>
+                <br>
+                
+
+                <a class="buybtn" [routerLink]="['/menu',fd.id]">BUY NOW &nbsp;<i class="bi bi-bag-fill"></i></a>
+                 <br>
+                 <br>
+                 <br>
+                <a class="review" class="buybtn" [routerLink]="['/review',fd.id]">CUSTOMER REVIEW</a>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,94 @@
+.foodbox 
+{
+    padding: 10px 5px;
+    justify-content: space-between;
+    color: aqua;
+    justify-content: space-around;
+} 
+.foodbox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    justify-content: space-between;
+    position:relative;
+}
+.foodbox h1 
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.buybtn{
+    background-color:orangered;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.foodbox p{
+    font-weight: bolder;
+    font-size: large;
+}
+.price{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+.name{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+.container {
+    color:  rgb(54, 50, 50);
+   
+}
+.row{
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+.fdetails{
+    font-weight: bold;
+    color:orangered;
+    font-size: 20px;
+}
+
+.hname{
+    font-weight: bold;
+    color: orangered;
+    font-size: 20px;
+}
+
+.foodbox{
+    background-color:black;
+}
+.container1{
+    background-color: rgb(54, 50, 50);
+    align-items: center;
+}
+.heading1{
+   text-align: center;
+   font-weight: bolder;
+   color:white;
+   font-size: 60px;
+   font-family: 'Times New Roman', Times, serif;
+ 
+}
+.review{
+    margin-left: 1000px;
+}
+.column{
+    text-align: center;
+}
+.img{
+    align-items: center;
+}
+.buybtn{
+    margin-top: -100px;
+}
+

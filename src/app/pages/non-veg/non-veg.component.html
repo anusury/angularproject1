@@ -1,0 +1,19 @@
+<div class="container1">
+    <div class="heading">
+        <h1>WELCOME FOOD COURT</h1>
+        <hr>
+       <h1>WELCOME TO NON VEG FOOD CATEGORIES</h1>
+    </div>
+    <div *ngFor=" let nv of nonVegData">
+       <img class="image" src="{{nv.foodImag}}">
+       <div class="left1">
+        <h1 class="name">{{nv.foodName}}</h1>
+      
+        <p class="hname">{{nv.hotelName}}</p>
+        <p class="price">{{nv.foodPrice |currency:'INR'}}</p>
+        <a [routerLink]="['/nonveg',nv.id]"><button>BUY NOW&nbsp;<i class="bi bi-bag-fill"></i></button></a>
+       </div>
+       <br><br><br><br><br><br>
+    </div>
+    <a [routerLink]="['/starting']" class="btn btn-sm btn-dark mb-3 ">Back</a>
+</div>

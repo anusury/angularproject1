@@ -1,0 +1,41 @@
+<div class="container1">
+    
+    <div *ngIf="nonData">
+        
+        <h1>ADD A  DETAILS AND PLACE YOUR ORDER</h1>
+
+       <img  src="{{nonData[0].foodImag}}">
+       
+        <h1 class="name">{{nonData[0].foodName}}</h1>
+      
+        <h3 class="hname">{{nonData[0].hotelName}}</h3>
+        <h3 class="price">{{nonData[0].foodPrice |currency:'INR'}}</h3>
+        
+       
+       
+    </div>
+  
+    <div class="col-lg-6 col-12">
+        <h1 class="details">Enter Your Details</h1>
+        <h3 class="details1">FOR DELIVERY <i class="bi bi-truck"></i></h3>
+        <form>
+
+            <input type="text" class="form-control" placeholder="Enter Your Full Name" width="25px" />
+            <br>
+            <input type="text" class="form-control" placeholder="Enter Your Mobile" />
+            <br>
+            <textarea class="form-control" placeholder="Enter Your Address"></textarea>
+            <br>
+          
+            <button mat-button (click)="openSnackBar()" aria-label="Show an example snack-bar" style="color:white; background-color: orangered;">
+                PLACE ORDER
+            </button>
+            <br>
+            <br>
+            <button class="buybtn" [routerLink]="['/addreview']" >ADD A REVIEW</button>
+        </form>
+
+
+    </div> 
+    <a routerLink="../../nonveg" class="btn btn-sm btn-dark mb-3 ">Back</a>
+</div>

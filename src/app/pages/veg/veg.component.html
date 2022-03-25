@@ -1,0 +1,19 @@
+<div class="container1">
+    <div class="heading">
+        <h1>WELCOME FOOD COURT</h1>
+        <hr>
+       <h1>WELCOME TO  VEG FOOD CATEGORIES</h1>
+    </div>
+    <div *ngFor=" let vg of vegData">
+        <img class="image" src="{{vg.foodimd}}">
+        <div class="left1">
+         <h1 class="name">{{vg.foodName}}</h1>
+       
+         <p class="hname">{{vg.holtelName}}</p>
+         <p class="price">{{vg.foodPrice |currency:'INR'}}</p>
+         <a [routerLink]="['/veg',vg.id]"><button>BUY NOW&nbsp;<i class="bi bi-bag-fill"></i></button></a>
+        </div>
+        <br><br><br><br><br><br>
+     </div>
+     <a [routerLink]="['/starting']" class="btn btn-sm btn-dark mb-3 ">Back</a>
+</div>

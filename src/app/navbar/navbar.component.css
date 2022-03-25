@@ -1,0 +1,39 @@
+.active-link{
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.active-link{
+    color: aqua;
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: darkseagreen;
+}
+.container-fluid{
+    background-color: black;
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+    color: white;
+    margin-top: -10px;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size:xx-large;
+    font-style: normal;
+}
+.nav-link{
+    font-weight: bolder;
+    font-size: larger;
+    font-style: normal;
+}
+.navbar navbar-expand-lg navbar-light{
+    background-size: cover;
+}
+.navbar navbar-expand-lg navbar-light{
+    background-color: black;
+}
+#navbarNav{
+    color: white;
+}
+.navbar-nav ms-auto{
+    color: white;
+}

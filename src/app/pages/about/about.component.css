@@ -1,0 +1,21 @@
+.container{
+   
+   background-color: black;
+}
+h1{
+    color:orangered;
+    text-decoration: dotted;
+}
+h1:hover{
+    color:deeppink;
+    text-transform: uppercase;
+}
+hr{
+    color:antiquewhite;
+}
+p{
+    color: white;
+}
+tr{
+    color: white;
+}

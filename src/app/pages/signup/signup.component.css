@@ -1,0 +1,20 @@
+.container{
+    text-align: center;
+    margin-top: 80px;
+    background-color:white;
+    color:deeppink;
+    width: 440px;
+    height: 450px;
+    margin-left:365px;
+    
+}
+#mato{
+    height: 50px;
+}
+#add1{
+    padding: 13px;
+    text-align: center;
+}
+.content{
+    background-color: black;
+}

@@ -1,0 +1,50 @@
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    color:white;
+}
+hr{
+    width:50% ;
+    
+    margin-left: 350px;
+     
+     height: 10px ;
+}
+.container1{
+    background-color: rgb(54, 50, 50);
+    width: 100%;
+    height: 350%;
+}
+h1,h2{
+    color:white;
+}
+.choose{
+    height: 20px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+.left1 h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.left1{
+    float:right;
+}
+.second{
+   margin-left: 750px;
+}
+.left{
+    margin-top: -200px;
+}
+.left h1{
+    margin-left: 55px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+h1{
+    color:aqua;
+}
